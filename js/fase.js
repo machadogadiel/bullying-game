@@ -1,4 +1,8 @@
 
+
+
+
+
 function verifyAnswer(correctAnswer) {
     var answer = prompt("Digite a sua resposta:")
 

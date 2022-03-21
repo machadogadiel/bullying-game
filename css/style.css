@@ -26,10 +26,10 @@ header {
 }
 
 .characters-wrapper {
-    height: 80vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    min-height: 80vh;
 }
 
 .character-box {
@@ -42,6 +42,7 @@ header {
     background-color: black;
     flex-direction: column;
     justify-content: space-between;
+    align-self: center;
 }
 
 .character-box h1 {
