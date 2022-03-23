@@ -42,7 +42,6 @@ header {
     background-color: black;
     flex-direction: column;
     justify-content: space-between;
-    align-self: center;
 }
 
 .character-box h1 {

@@ -6,11 +6,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Heroes! - Fase 1</title>
 </head>
+
 <body>
     <header>
+        <a href="javascript:history.back()" class="goback-btn">Voltar</a>
+
         <h1 class="logo">Heroes!</h1>
     </header>
+
+    <main>
+        <div class="content-container">
+            <div class="lore">
+
+                <div class="character-image">
+                    <img src="../../media/image/ethan.svg" alt="Ethan" height="150" width="150">
+                </div>
+
+                <div class="character-dialog">
+                    <p>
+                        Finalmente conseguimos identificar que John de fato sofre bullying e que tipo de bullying ele sofre,
+                        agora podemos ajudar o John a superar o Cyberbullying. <br>
+                        Pensando especificamente no caso do John, ajude o Ethan a selecionar qual é o melhor conselho parar dar para o John.
+                    </p>
+                </div>
+
+            </div>
+            
+
+            <div class="option-container">
+                <div class="option"><p><span>A. </span> Bloquear o bully na rede social, reportar o post e falar com um adulto</p></div>
+                <div class="option"><p><span>B. </span> Aceitar a sua realidade e sofrer em silencio</p></div>
+                <div class="option"><p><span>C. </span> Hackear o bully e se vingar dele postando coisas ruins sobre ele</p></div>
+                <div class="option"><p><span>D. </span> Ofender o bully de volta</p></div>
+                <div onclick="verifyAnswer('a')" class="answer-btn" ><p>Responder</p></div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="../../js/fase.js" type="text/javascript"></script>
 </body>
+
 </html>

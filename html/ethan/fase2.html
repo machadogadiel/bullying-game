@@ -6,11 +6,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Heroes! - Fase 1</title>
 </head>
+
 <body>
     <header>
+        <a href="javascript:history.back()" class="goback-btn">Voltar</a>
+
         <h1 class="logo">Heroes!</h1>
     </header>
+
+    <main>
+        <div class="content-container">
+            <div class="lore">
+
+                <div class="character-image">
+                    <img src="../../media/image/ethan.svg" alt="Ethan" height="150" width="150">
+                </div>
+
+                <div class="character-dialog">
+                    <p>
+                        Agora que já sabemos o que é bullying, vamos tentar identificar que tipo de bullying o John está sendo alvo.
+                        John disse ao Ethan que os colegas da escola deles publicavam posts na redes socais comparando ele com baleias, 
+                        por causa dele ser "gordo". Sabemos que existem 8 tipos de bullying dentre eles estão o Bullying Psicológico, Verbal, Moral e o Cyberbullying.<br>
+                        Ajude ao Ethan identificar corretamente o tipo de bullying selecionando a alternativa correta.
+                    </p>
+                </div>
+
+            </div>
+            
+
+            <div class="option-container">
+                <div class="option"><p><span>A. </span>Bullying psicológico</p></div>
+                <div class="option"><p><span>B. </span>Bullying verbal</p></div>
+                <div class="option"><p><span>C. </span>Bullying físico</p></div>
+                <div class="option"><p><span>D. </span>Cyberbullying</p></div>
+                <div onclick="verifyAnswer('d')" class="answer-btn"><p>Responder</p></div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="../../js/fase.js" type="text/javascript"></script>
 </body>
+
 </html>

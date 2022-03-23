@@ -78,7 +78,7 @@ header {
 }
 
 .character-dialog p {
-    color: white;
+    color: #e7e6e6;
     letter-spacing: 1px;
     text-align: justify;
 }
@@ -100,8 +100,12 @@ header {
     padding: 10px;
     border-radius: 15px;
 
-    color: white;
     background-color: #1f1f1f;
+}
+
+.option p {
+    color: #e7e6e6;
+    letter-spacing: 1px;
 }
 
 .answer-btn {
@@ -109,6 +113,10 @@ header {
     padding: 10px;
     border-radius: 10px;
 
-    color: white;
+    color: #e7e6e6;
     background-color: #1f1f1f;
+}
+
+span {
+    margin-right: 5px;
 }
