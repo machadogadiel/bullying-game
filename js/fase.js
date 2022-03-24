@@ -1,7 +1,7 @@
 var currentPhase = window.location.pathname
 
 function verifyAnswer(correctAnswer) {
-    var num = 1
+    var num = 3
 
     while (true) {
         var answer = prompt("Digite a sua resposta:").toLowerCase()
@@ -13,7 +13,7 @@ function verifyAnswer(correctAnswer) {
                 break
             } else {
                 alert(`Resposta errada! Você tem mais ${num} tentativas`)
-                num++
+                num--
             }
             
         } else {
@@ -22,7 +22,7 @@ function verifyAnswer(correctAnswer) {
 
         console.log(num);
 
-        if (num == 4) {
+        if (num == 0) {
             location.href = '../gameover.html'
             break
         }

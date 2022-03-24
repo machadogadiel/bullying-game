@@ -43,3 +43,21 @@ header {
     transition: transform 0.3s ease;
 }
 
+.final-dialog {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto {
+    width: 50%;
+    font-size: 30px;
+}
+
+.emoji {
+    font-size: 100px;
+    justify-self: center;
+}

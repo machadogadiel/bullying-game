@@ -6,11 +6,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Heroes! - Fase 1</title>
 </head>
+
 <body>
     <header>
+        <a href="javascript:history.back()" class="goback-btn">Voltar</a>
+
         <h1 class="logo">Heroes!</h1>
     </header>
+
+    <main>
+        <div class="content-container">
+            <div class="lore">
+
+                <div class="character-image">
+                    <img src="../../media/image/james.svg" alt="Mike" height="150" width="150">
+                </div>
+
+                <div class="character-dialog">
+                    <p>
+                        Um dos alunos fez a seguinte pergunta para o James:<br>
+                        "Prof. James, o que é bullying material? você poderia me dar um exemplo do que seria isso?"<br>
+                        Ajude o James a responder, selecione a resposta que responde melhor a pergunta do aluno.
+                    </p>
+                </div>
+
+            </div>
+            
+
+            <div class="option-container">
+                <div class="option"><p><span>A. </span> Consiste em sumir ou causar danos a objetos pessoais de colegas. Roubar lanches, esconder sapatos ou livros são alguns exemplos.</p></div>
+                <div class="option"><p><span>B. </span> É quando alguem pega suas coisas, por exemplo seu celular e esconde</p></div>
+                <div class="option"><p> <span>C. São agressões verbais com o intuito de humilhar e desestabilizar o emocional do agredido.</span> </p></div>
+                <div class="option"><p> <span>D. São aqueles virtuais, que ocorrem geralmente em redes sociais. Vídeos, fotos, insultos e até mentiras são publicados na rede e alguns podem, inclusive, “viralizar”.</span> </p></div>
+                <div onclick="verifyAnswer('a')" class="answer-btn" ><p>Responder</p></div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="../../js/fase.js" type="text/javascript"></script>
 </body>
+
 </html>
