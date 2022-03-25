@@ -1,3 +1,4 @@
+
 var currentPhase = window.location.pathname
 
 function verifyAnswer(correctAnswer) {
@@ -9,7 +10,7 @@ function verifyAnswer(correctAnswer) {
         if (answer == 'a'|| answer == 'b' || answer == 'c' || answer == 'd') {
             if (answer == correctAnswer) {
                 alert("Reposta correta")
-                nextPhase()
+                goToNextPhase()
                 break
             } else {
                 alert(`Resposta errada! Você tem mais ${num} tentativas`)
@@ -20,8 +21,6 @@ function verifyAnswer(correctAnswer) {
             alert("Você precisa responder com uma das 4 opções: A, B, C ou D")
         }
 
-        console.log(num);
-
         if (num == 0) {
             location.href = '../gameover.html'
             break
@@ -31,7 +30,7 @@ function verifyAnswer(correctAnswer) {
     
 }
 
-function nextPhase() {
+function goToNextPhase() {
     if (currentPhase.indexOf("fase1") != -1) {
         location.href = currentPhase.toString().replace("1", "2")
     } else if (currentPhase.indexOf("fase2") != -1) {
