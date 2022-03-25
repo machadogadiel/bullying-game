@@ -68,3 +68,9 @@ header {
 .character-box img {
     align-self: center;
 }
+
+@media(max-width: 800px) {
+    .characters-wrapper {
+        flex-direction: column;
+    }
+  }
