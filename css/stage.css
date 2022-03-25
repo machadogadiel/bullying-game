@@ -44,7 +44,7 @@ header {
 }
 
 /*******************/
-/* Phase Content  */
+/* Stage Content  */
 /*****************/
 
 .content-container {
@@ -57,7 +57,7 @@ header {
     justify-content: center;
 }
 
-.lore {
+.story {
     display: flex;
     width: 50%;
     padding: 25px;
@@ -99,7 +99,6 @@ header {
     margin: 10px;
     padding: 10px;
     border-radius: 15px;
-
     background-color: #1f1f1f;
 }
 
